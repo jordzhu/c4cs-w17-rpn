@@ -1,4 +1,4 @@
 langugage: python
 python: 
   - "3.5"
-script: python test_rpn.py
+script: make test

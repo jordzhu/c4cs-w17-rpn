@@ -1,4 +1,8 @@
 langugage: python
 python: 
   - "3.5"
-script: make test
+install:
+  - pip install coveralls
+script: coverage run -m unittest
+after_success:
+  - coveralls

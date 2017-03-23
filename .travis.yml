@@ -2,7 +2,7 @@ langugage: python
 python: 
  - "3.5"
 install:
- - pip install coveralls
+ - pip3 install coveralls
 script:
  - coverage run -m unittest
 after_success:

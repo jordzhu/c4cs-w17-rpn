@@ -2,8 +2,8 @@ langugage: python
 python: 
  - "3.5"
 install:
- - sudo pip3 install python-coveralls
- - sudo pip3 install termcolor
+ - sudo pip install coveralls
+ - sudo pip install termcolor
 script:
  - coverage run -m unittest
 after_success:

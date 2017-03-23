@@ -3,7 +3,7 @@ python:
  - "3.5"
 install:
  - sudo pip install coveralls
- - sudo pip install termcolor
+ # - sudo pip install termcolor
 script:
  - coverage run -m unittest
 after_success:

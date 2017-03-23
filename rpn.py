@@ -3,7 +3,7 @@
 import operator
 import readline
 import sys
-from termcolor import colored, cprint
+# from termcolor import colored, cprint
 
 OPERATORS = {
 	'+': operator.add,
@@ -33,11 +33,11 @@ def main():
 	while True:
 		wholeInput = input('rpn calc> ')
 		result = calculate(wholeInput)
-		print("Result:", result)
-		wholeInput.split()
-		print("\n")
-		text = colored(str(wholeInput[4]), 'cyan', attrs=['blink', 'reverse'])
-		print(str(wholeInput[0]) + " " + text + " " + str(wholeInput[2] + " = " + str(result)))
+		# print("Result:", result)
+		# wholeInput.split()
+		# print("\n")
+		# text = colored(str(wholeInput[4]), 'cyan', attrs=['blink', 'reverse'])
+		# print(str(wholeInput[0]) + " " + text + " " + str(wholeInput[2] + " = " + str(result)))
 
 if __name__ == '__main__':
 	main()

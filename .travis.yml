@@ -2,7 +2,7 @@ langugage: python
 python: 
  - "2.7"
 install:
- - pip install coveralls
+ - pip install --user coveralls
  # - sudo pip install termcolor
 script:
  - coverage run -m unittest
